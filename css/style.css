@@ -8,6 +8,7 @@ body{
    background-image: url(../img/top-banner.png);
    background-repeat: no-repeat;
 }
+
 button{
     background: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 40px;
@@ -17,6 +18,7 @@ button{
     font-size: 18px;
     font-weight: 700;
     color: #fff;
+    cursor: pointer;
 }
 .max-width{
     width: 40%;
@@ -41,4 +43,10 @@ h1 span{
 }
 .section_content h2{
     font-size: 40px;
+}
+#second_section{
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
 }
